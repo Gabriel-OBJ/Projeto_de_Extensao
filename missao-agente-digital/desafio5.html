@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Desafio 5: O Biscoito Envenenado</h1>
+        <p>Phantasma deixou um "cookie" digital no seu navegador para rastreá-lo. Encontre essa informação e use-a contra ele! A pista está na aba "Aplicativo" ou "Armazenamento" das ferramentas de desenvolvedor.</p>
+        <input type="text" id="flag-input" placeholder="FLAG_AQUI">
+        <br>
+        <button onclick="verificarFlag()">Verificar</button>
+    </div>
+    <script>document.cookie = "auth_code=INFORMACAO_CONFIDENCIAL; path=/";</script>
+    <script src="js/desafio5.js"></script>
+</body>
+</html>

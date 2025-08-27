@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Desafio 3: A Foto-Espiã</h1>
+        <p>Phantasma é descuidado. Ele tirou uma foto do local do seu próximo ataque, mas esqueceu de limpar os 'rastros digitais' que a câmera deixou no arquivo.</p>
+        <p>Toda foto digital pode carregar informações ocultas: a câmera usada, a hora, a data e às vezes até <strong>ONDE</strong> ela foi tirada! São os chamados <strong>Metadados EXIF</strong>. Nós compartilhamos isso sem nem saber.</p>
+        <p>Sua missão: <strong>baixe a imagem</strong>, investigue suas <strong>propriedades (detalhes)</strong> e descubra a data exata em que ela foi tirada. Essa data é a sua flag.</p>
+        
+            <img src="rabito.jpg" alt="Pista de Phantasma">
+        
+        <br>
+        <input type="text" id="flag-input" placeholder="Use o formato DD-MM-AAAA">
+        <br>
+        <button onclick="verificarFlag()">Verificar</button>
+    </div>
+    <script src="js/desafio3.js"></script>
+</body>
+</html>
